@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+    gap: 1rem;
+    
+    }
+
+    .container .cardContainer {
+        width: 500px;
+        height: 370px;
+        border-radius: 20px;
+        background-color: #fff;
+        box-shadow: 1px 1px 15px 1px;
+    }
+
+    .container .adid {
+        position: relative;
+        bottom: 150px;
+        left: 389px;
+        width: 80px;
+        height: 53px;
+        border-radius: 10px;
+        padding: 15px 23px 15px 23px;
+        gap: 10px;
+        background-color: black;
+    }
+
+    .adid img {
+        width: 30px;
+        height: 20.26px;
+    }
+
+    .card {
+        padding: 1rem;
+        
+    }
+
+.card img {
+ width: 150px;
+ height: 150px;
+ object-fit: cover;
+border-radius: 12px;
+    
+}
+
+.description h2 {
+    
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 600;
+    width: 60%;
+    height: 65px;
+    padding-left: 28px; 
+}
+
+.description p {
+    font-size: 20px;
+    line-height: 19.36px;
+    font-weight: 400px;
+    width: 332px;
+    height: 38px;
+    padding-left: 28px; 
+}
+
